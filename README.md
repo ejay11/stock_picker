@@ -7,4 +7,8 @@ Implement a method #stock_picker that takes in an array of stock prices, one for
     <li>You need to buy before you can sell</li>
     <li>Pay attention to edge cases like when the lowest day is the last day or the highest day is the first day.</li>
 
+Example: 
+ > stock_picker([17,3,6,9,15,8,6,1,10])
+ => [1,4]  # for a profit of $15 - $3 == $12
+
 Written in Ruby. 
